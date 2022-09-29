@@ -1,0 +1,39 @@
+type casting: is converting the type of data from one type to another one. We have 2 types of type casting
+1- Explicit/narrowing/manual.
+2- Implicit/widening/Automatic
+
+from smallest to largest:
+1. byte (8 bits) 2. short (16)  char (16) 3. int (32) 4. long (64) 5. float ( 32) 6. double (64)
+( 3222   or  3.2E12 ) 3.2E12 = 3.2*1000000000000
+so 3.2E12 > 3222   that is why float 32 bits is larger than long 64 bits.
+
+Explicit
+int box=1000;
+byte box2=(byte)box;
+System.out.println(box2);
+
+Implicit
+short largerbox1=129;
+int smallerBox2=largerBox1;
+System.out.println(smallerBox2);
+
+If statements: if else conditions allow us to write programs that make decisions based on some condition and provided data.
+if condition
+if else condition
+if else if condition
+nested if else condition
+
+
+What is the syntax of if else condition?
+if condition
+
+boolean rich=true;
+if(rich)
+{
+System.out.println("let us buy a jet");
+} else { System.out.println("let us buy a car");
+
+
+
+
+

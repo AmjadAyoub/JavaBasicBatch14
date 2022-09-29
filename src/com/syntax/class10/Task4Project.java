@@ -1,0 +1,39 @@
+package com.syntax.class10;
+
+public class Task4Project {
+
+	public static void main(String[] args) {
+		// create a 2D array or integer type where you will store odd and even numbers
+		//develop a program which will identify/print the even numbers only
+		
+		 int [][] numbers= {
+                 {15,82,63,49},
+                 {45,96,78,15,23,67,41},
+                 {17,25,67,96,30},
+         };
+
+         for(int i=0;i<numbers.length; i++) {
+             for (int j=0; j<numbers[i].length; j++) {
+
+                 if (numbers[i][j]%2==0) {
+                     System.out.print(numbers [i][j]+" ");
+                 }
+	}
+
+}
+         System.out.println();
+         System.out.println("Different way");
+         
+         int sum=0;
+         for (int [] ar:numbers) {
+        	 for(int num:ar ) {
+        		 if(num%2==0) {
+        			 System.out.println(num);
+        		 }
+        		 
+        		 
+        		 
+        	 }
+         }
+	}
+}

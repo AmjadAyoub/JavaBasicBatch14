@@ -1,0 +1,47 @@
+type casting:
+widening and narrowing, implicit and explicit.
+implicit is done automatically . it happens when we assign a smaller data type to a larger data type, because there is no loss of data in this conversion.
+
+Explicit/narrowing/manual type casting:
+when we convert a larger data type to smaller data type. It does not happen automatically, we have to do it manually.
+Why we should learn type casting?
+When we write code in our life, most of the time we use the code from others to save time. And we might need to convert data types to make our code compatible with their code.
+
+What is the Syntax for type casting?
+we use () and inside the () we write the destination data type for example:
+If we want to convert a long to an int, this is how we can do it:
+long var1=250;
+int var2=(int)var1; // its explicit/narrowing/Manual.
+double var3=var2 // no need to do anything because implicit.
+
+float f=250.5f;
+double d=f; // no need to do anything (widening)
+
+.......................................................................
+
+if else conditions:
+if else conditions help up to write code that take decisions based on data.
+Why we should learn about if else?
+because we r solving real life problem like testing a web site , our programs need to make a lot of decisions
+
+What is the Syntax for if else conditions?
+  boolean isHungry=true;
+  if(isHungry){
+  System.out.print("Please Eat something")
+  }else{ System.out.println("Lets build some java programs")}
+  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  Nested if conditions:
+   
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
